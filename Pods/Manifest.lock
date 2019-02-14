@@ -1,0 +1,50 @@
+PODS:
+  - ARCarMovement (2.0.2):
+    - GoogleMaps (~> 2.0)
+  - BringgTracking (1.18.0):
+    - Socket.IO-Client-Swift (~> 12.1.2)
+  - GoogleMaps (2.7.0):
+    - GoogleMaps/Maps (= 2.7.0)
+  - GoogleMaps/Base (2.7.0)
+  - GoogleMaps/Maps (2.7.0):
+    - GoogleMaps/Base
+  - Kingfisher (4.10.1)
+  - Socket.IO-Client-Swift (12.1.3):
+    - Starscream (~> 2.1.1)
+  - Starscream (2.1.1)
+
+DEPENDENCIES:
+  - ARCarMovement
+  - BringgTracking (from `https://github.com/narlei/customer-sdk-ios.git`, branch `delivery`)
+  - GoogleMaps
+  - Kingfisher (~> 4.10.1)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - ARCarMovement
+    - GoogleMaps
+    - Kingfisher
+    - Socket.IO-Client-Swift
+    - Starscream
+
+EXTERNAL SOURCES:
+  BringgTracking:
+    :branch: delivery
+    :git: https://github.com/narlei/customer-sdk-ios.git
+
+CHECKOUT OPTIONS:
+  BringgTracking:
+    :commit: 53a0a25126f9d4ea85aeac2e203bea486ad44a17
+    :git: https://github.com/narlei/customer-sdk-ios.git
+
+SPEC CHECKSUMS:
+  ARCarMovement: 1bccf797758b57ae98a60c7aecade5fd20c97422
+  BringgTracking: 0bc550fcfbe3428ea653066df5794e7010cd8c03
+  GoogleMaps: f79af95cb24d869457b1f961c93d3ce8b2f3b848
+  Kingfisher: c148cd7b47ebde9989f6bc7c27dcaa79d81279a0
+  Socket.IO-Client-Swift: 2d3838d0e7bc105626872081fb6a23141145e8f8
+  Starscream: 142bd8ef24592d985daee9fa48c936070b85b15f
+
+PODFILE CHECKSUM: e4ddc3a1c5ee228dc3feb9c0fb7d05b7412bc439
+
+COCOAPODS: 1.5.3
